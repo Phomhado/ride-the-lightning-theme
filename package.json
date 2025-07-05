@@ -1,0 +1,24 @@
+{
+  "name": "ride-the-lightning-theme",
+  "displayName": "Ride The Lightning Theme",
+  "description": "Tema customizado inspirado na capa do Ride the Lightning do Metallica",
+  "version": "0.0.1",
+  "publisher": "Pedro Oliveira",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ride The Lightning",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ride-the-lightning-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Phomhado/ride-the-lightning-theme"
+  }
+}

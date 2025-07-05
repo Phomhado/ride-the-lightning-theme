@@ -1,0 +1,94 @@
+{
+  "name": "RideTheLightning",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0B1A3F",
+    "editor.foreground": "#F0F4F8",
+    "editorCursor.foreground": "#FFD34E",
+    "editor.lineHighlightBackground": "#152A65",
+    "editor.selectionBackground": "#3EA4D5AA",
+    "editor.inactiveSelectionBackground": "#3EA4D550",
+    "editorIndentGuide.background": "#647C9A50",
+    "editorIndentGuide.activeBackground": "#647C9A80"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "string.comment"
+      ],
+      "settings": {
+        "foreground": "#647C9A",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "storage.type",
+        "storage.modifier"
+      ],
+      "settings": {
+        "foreground": "#FFD34E",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.language.boolean",
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#3EA4D5"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "constant.other.symbol"
+      ],
+      "settings": {
+        "foreground": "#3EA4D5"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#F0F4F8"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "keyword.other.special-method"
+      ],
+      "settings": {
+        "foreground": "#FFD34E"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type"
+      ],
+      "settings": {
+        "foreground": "#3EA4D5",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FF5370",
+        "fontStyle": "underline"
+      }
+    }
+  ]
+}
