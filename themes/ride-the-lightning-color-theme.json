@@ -153,6 +153,12 @@
         "foreground": "#FF5370",
         "fontStyle": "underline"
       }
+    },
+    {
+      "scope": ["string.quoted", "variable.other.attribute-name", "entity.other.attribute-name", "meta.attribute"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
     }
   ]
 }

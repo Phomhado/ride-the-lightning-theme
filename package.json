@@ -2,7 +2,7 @@
   "name": "ride-the-lightning-theme",
   "displayName": "Ride The Lightning Theme",
   "description": "Tema customizado inspirado na capa do Ride the Lightning do Metallica",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "Pedro Oliveira",
   "engines": {
     "vscode": "^1.50.0"
